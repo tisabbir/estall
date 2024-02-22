@@ -23,6 +23,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                primaryColor: '#febd59',
               }
             }
           }
@@ -49,15 +50,19 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Artisans</a></li>
+              <li><a>Find Artisans</a></li>
               <li>
-                <a>Agents</a>
+                <a>Explore</a>
                 <ul class="p-2">
-                  <li><a>Local</a></li>
-                  <li><a>Global</a></li>
+                  <li><a>Discover</a></li>
+                  <li><a>Community</a></li>
+                  <li><a>Guides</a></li>
+                  <li><a>Learn</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Find Our Agents</a></li>
                 </ul>
               </li>
-              <li><a>Orders</a></li>
+              <li><a>Find Work</a></li>
             </ul>
           </div>
           <a class="btn btn-ghost text-xl"><img class="h-12" src="images/Picture1.png" alt=""></a>
@@ -65,20 +70,25 @@
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a>Artisans</a></li>
+            <li><a>Find Artisans</a></li>
             <li>
               <details>
-                <summary>Agents</summary>
+                <summary>Explore</summary>
                 <ul class="p-2">
-                  <li><a>Local</a></li>
-                  <li><a>Global</a></li>
+                  <li><a>Discover</a></li>
+                  <li><a>Community</a></li>
+                  <li><a>Guides</a></li>
+                  <li><a>Learn</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Find Our Agents</a></li>
                 </ul>
               </details>
             </li>
-            <li><a>Orders</a></li>
+            <li><a>Find Work</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end flex gap-4">
+          <a class="btn">Sign Up</a>
           <a class="btn">Login</a>
         </div>
       </div>
@@ -87,11 +97,11 @@
       <!-- Hero section starts -->
       <div class="hero min-h-screen bg-base-200 rounded-xl">
         <div class="hero-content flex-col lg:flex-row-reverse">
-          <img src="images/jainamaz.jpg" class="w-1/2 rounded-lg shadow-2xl" />
+          <img src="images/jainamaz.jpg" class="w-1/2 rounded-lg shadow-2xl z-0" />
           <div>
             <h1 class="text-5xl font-bold">Reviving Traditions, Empowering Lives</h1>
             <p class="py-6">Reviving age-old traditions, our platform empowers artisans, fostering community growth and economic independence in rural areas.</p>
-            <button class="btn btn-primary bg-orange-400 text-white border-none text-2xl">Hire Artisans</button>
+            <button class="btn btn-primary bg-primaryColor text-white border-none text-2xl">Hire Artisans</button>
           </div>
         </div>
       </div>
